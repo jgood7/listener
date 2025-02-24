@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginStart="10dp"
+        android:text="Listener"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/dividerVertical" />
+
+<!-- Menu Item 1 -->
+<LinearLayout
+    android:id="@+id/menuItem1"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <CheckBox android:id="@+id/checkbox_enabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enabled" />
+
+</LinearLayout>
+
+<!-- Divider -->
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="?android:attr/dividerVertical" />
+
+<!-- Menu Item 2 -->
+<LinearLayout
+    android:id="@+id/menuItem2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textMenuOption2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 2"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>
+
+<!-- Divider -->
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="?android:attr/dividerVertical" />
+
+<!-- Menu Item 3 -->
+<LinearLayout
+    android:id="@+id/menuItem3"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textMenuOption3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Option 3"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>
+</LinearLayout>
